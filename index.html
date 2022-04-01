@@ -5,18 +5,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Simple Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
   <div class="container">
-    <h1 class="brand">J. King Web Design</h1>
+    <h1 class="brand"><span>J. King</span> Web Design</h1>
     <div class="wrapper">
       <div class="company-info">
         <h3>J. King Web Design</h3>
         <ul>
-          <li>123 Jackson St.</li>
-          <li>609-428-0000</li>
-          <li>king.jarreau@gmail.com</li>
+          <li><i class="fa fa-road"></i> 123 Jackson St.</li>
+          <li><i class="fa fa-phone"></i> 609-428-0000</li>
+          <li><i class="fa fa-envelope"></i> king.jarreau@gmail.com</li>
         </ul>
       </div>
       <div class="contact">
@@ -38,13 +39,12 @@
             <label>Phone Number</label>
             <input type="text" name="phone">
           </p>
-          <p>
+          <p class="full">
             <label>Message</label>
             <textarea name="message" rows="5"></textarea>
           </p>
-          <p>
-            <label>Name</label>
-            <input type="text" name="name">
+          <p class="full">
+           <button>Submit</button>
           </p>
         </form>
 
